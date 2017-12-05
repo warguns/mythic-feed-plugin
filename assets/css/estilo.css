@@ -1,0 +1,27 @@
+#workspace{
+    /* margin-left: 3%; */
+}
+
+.photo{
+    float: left;
+    position: relative;
+    /*margin: 2px;*/
+    overflow: hidden;
+}
+
+.photoimg {
+    filter: grayscale(100%);
+    width: 100%;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+.photoimg:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: none;
+}
